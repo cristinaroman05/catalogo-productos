@@ -1,0 +1,12 @@
+.app{
+    margin: 20px;
+}
+.links{
+    display: flex;
+    justify-content: center;
+}
+.links a{
+    margin: 10px;
+    border: 1px solid #7f7c7c;
+    padding: 5px 10px;
+}

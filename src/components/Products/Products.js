@@ -8,9 +8,9 @@ const Products = () => {
         {products.map((product) => {
           return (
             <div key={product.id} className="product-container">
-              <img className="products__image" src={product.image} />
+              <img className="products__image" src={product.image} alt={product.name}/>
               <p>{product.name}</p>
-              <NavLink to={`/products/${product.id}`}>Ver producto</NavLink>
+              <NavLink to={`/product-detail/${product.id}`}>Ver producto</NavLink>
             </div>
           );
         })}
